@@ -20,6 +20,6 @@ server.post('/calculate', (req, res) => {
 });
 
 // start the server
-server.listen(PORT, () => {
+server.listen(PORT, "0.0.0.0", () => {
     console.log(`Your server is up and running. Plese go to http://localhost:${PORT}/ to start the app.`);
 });
